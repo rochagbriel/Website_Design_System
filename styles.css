@@ -1,0 +1,124 @@
+/* Browser CSS RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: #748DA6;
+}
+
+/* MAIN CSS START */
+main {
+    max-width: 800px;
+    width: 90%;
+    margin: 16px auto;
+    display: grid;
+}
+
+header h1 {
+    margin: 16px;
+    min-width: 546px;
+}
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14;
+}
+
+section {
+    border: 4px solid #9CB4CC;
+    margin: 16px;
+    max-width: 800px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+    margin: 24px auto;
+    width: 546px;
+    height: 44px;
+    padding: 12px;
+}
+
+ul :nth-child(1) {
+    background-color: #748DA6;
+}
+ul :nth-child(2) {
+    background-color: #9CB4CC;
+}
+ul :nth-child(3) {
+    background-color: #D3CEDF;
+}
+ul :nth-child(4) {
+    background-color: #F2D7D9;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.codepro , .nunito , .poppins {
+    border: 1px solid #9CB4CC;
+    margin: 10px auto;
+    width: 546px;
+    padding: 3px;
+    background-color: white;
+}
+
+.codepro p {
+    font-family: "Source Code Pro", monospace;
+}
+
+.poppins p {
+    font-family: "Poppins", sans-serif;
+}
+
+.nunito p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.fonts {
+    background-color: #F2D7D9;
+}
+
+.textstyles {
+    background-color: #D3CEDF;
+}
+
+/* hover */
+
+.colors:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.fonts:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.textstyles:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
